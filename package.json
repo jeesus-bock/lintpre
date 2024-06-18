@@ -1,9 +1,9 @@
 {
   "name": "lintpre",
   "scripts": {
-    "lint": "npx eslint",
-    "prettier": "npx prettier --check",
-    "prettier-fix": "npx prettier --write"
+    "lint": "eslint",
+    "prettier": "prettier --use-tabs true",
+    "prettier-fix": "prettier --write --use-tabs true"
   },
   "dependencies": {
     "@eslint/js": "^9.5.0",
