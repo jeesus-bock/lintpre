@@ -2,7 +2,7 @@
   "name": "lintpre",
   "scripts": {
     "lint": "eslint",
-    "prettier": "prettier --use-tabs true",
+    "prettier": "prettier --check --use-tabs true",
     "prettier-fix": "prettier --write --use-tabs true"
   },
   "dependencies": {
